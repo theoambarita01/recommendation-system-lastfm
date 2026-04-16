@@ -1,0 +1,17 @@
+# virtual env
+.venv/
+
+# IDE
+.idea/
+
+# data
+data/raw/
+data/processed/
+
+# results
+results/*.pt
+results/*.db
+
+# misc
+__pycache__/
+*.pyc
