@@ -1,7 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 
 TRAIN_PATH = ROOT / "data" / "processed" / "train.parquet"
 VAL_PATH = ROOT / "data" / "processed" / "val.parquet"

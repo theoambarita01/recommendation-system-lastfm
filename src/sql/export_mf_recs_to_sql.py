@@ -5,7 +5,7 @@ import pandas as pd
 import torch
 import torch.nn as nn
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 
 DB_PATH = ROOT / "results" / "recsys.db"
 

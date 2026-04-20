@@ -5,7 +5,7 @@ import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 
 TRAIN_EX_PATH = ROOT / "data" / "processed" / "gru_train.pkl"
 TEST_EX_PATH = ROOT / "data" / "processed" / "gru_test.pkl"

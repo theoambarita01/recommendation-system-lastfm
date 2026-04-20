@@ -2,7 +2,7 @@ import sqlite3
 from pathlib import Path
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 
 DB_PATH = ROOT / "results" / "recsys.db"
 

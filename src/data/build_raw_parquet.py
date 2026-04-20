@@ -5,7 +5,7 @@ import sys
 print("PYTHON EXE:", sys.executable)
 
 # repo root = parent of src/
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 
 RAW_PATH = ROOT / "data" / "raw" / "userid-timestamp-artid-artname-traid-traname.tsv"
 OUT_PATH = ROOT / "data" / "processed" / "interactions_raw.parquet"

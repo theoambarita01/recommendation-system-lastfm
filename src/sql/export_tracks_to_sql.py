@@ -2,7 +2,7 @@ import pandas as pd
 import sqlite3
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]
 
 DATA_PATH = ROOT / "data" / "processed" / "interactions_raw.parquet"
 DB_PATH = ROOT / "results" / "recsys.db"

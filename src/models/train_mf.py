@@ -10,7 +10,7 @@ from torch.utils.data import Dataset, DataLoader
 # ----------------------------
 # Paths
 # ----------------------------
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 
 TRAIN_PATH = ROOT / "data" / "processed" / "train.parquet"
 TEST_PATH = ROOT / "data" / "processed" / "test.parquet"
